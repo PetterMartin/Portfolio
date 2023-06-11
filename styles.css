@@ -5,6 +5,7 @@ body {
     --white: #F7F7F7;
     --black: #4f5257;
     background-image: url(Images/White-hexagon.jpeg);
+    cursor: url(Cursors/Orange-dot.svg), auto;
   }
 
 p {
@@ -279,6 +280,7 @@ p {
 
   .language-section {
     background-image: radial-gradient(circle, #ed6b3f, #ef793f, #f08741, #f19444, #f1a149);
+    cursor: url(Cursors/Black-dot.svg), auto;
   }
   
   .language-section h3,
@@ -363,6 +365,7 @@ p {
     clip-path: polygon(50% 0, 85% 25%, 85% 75%, 50% 100%, 15% 75%, 15% 25%);
     transform-origin: center;
     transition: transform 4s ease-out;
+    cursor: url(Cursors/Black-dot.svg), auto;
   }
   
   .hexagon:hover {
@@ -663,6 +666,7 @@ p {
     background-image: radial-gradient(circle, #ed6b3f, #ef793f, #f08741, #f19444, #f1a149);
     text-align: center;
     padding: 2rem;
+    cursor: url(Cursors/Black-dot.svg), auto;
   }
 
   .footer-content {
