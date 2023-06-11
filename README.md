@@ -1,6 +1,6 @@
 # Your project title
 
-![image]()
+![image](https://github.com/PetterMartin/Portfolio/blob/master/Images/Screenshot%202023-06-11%20at%2018.44.30.png)
 
 My portfolio website designed to showcase myself as a developer and the projects I have created so far after 1 year at Noroff.
 
