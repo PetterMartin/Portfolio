@@ -41,6 +41,14 @@ p {
     width: 600px;
     height: auto;
   }
+
+  .hero-container .petter-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 3rem;
+  }
   
   .container {
     position: absolute;
@@ -69,7 +77,7 @@ p {
     display: block;
     width: 180px;
     height: 4px;
-    margin-top: 7rem;
+    margin-top: 2rem;
     border-radius: 20px;
     background-color: var(--orange);
   }
@@ -107,6 +115,12 @@ p {
     .hero-container img {
       width: 400px;
     }
+
+    .hero-container .petter-image {
+      width: 100px;
+      height: 100px;
+      margin-top: 2rem;
+    }
   
     .container {
       width: 100%;
@@ -123,7 +137,14 @@ p {
     }
   
     .divider {
-      margin-top: 5rem;
+      margin-top: 1rem;
+      width: 130px;
+      height: 2px;
+    }
+
+    .container p {
+      font-size: 14px;
+      margin-bottom: 1rem;
     }
   }
   
@@ -144,10 +165,6 @@ p {
     .container h2 {
       font-size: 16px;
       letter-spacing: 0.3rem;
-    }
-  
-    .divider {
-      margin-top: 3rem;
     }
   }
 
@@ -615,6 +632,7 @@ p {
     }
 
     .visit-site-button {
+      font-size: 14px;
       margin-left: auto; 
     }
   }
