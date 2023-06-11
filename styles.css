@@ -403,8 +403,8 @@ p {
     }
   
     .performance-box {
-      width: 35%; /* Adjust the width to control the number of boxes per row */
-      margin-bottom: 2rem; /* Adjust the margin-bottom value for spacing between the boxes */
+      width: 35%; 
+      margin-bottom: 2rem; 
     }
 
     .performance-box p {
