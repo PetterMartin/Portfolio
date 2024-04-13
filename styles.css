@@ -301,8 +301,12 @@ p {
     width: 100%;
   }
   
-  
-  .image-wrapper img:nth-child(3) {
+  .image-wrapper img:nth-child(1) {
+    width: 200px;
+    height: 100px; 
+    margin-top: 1.3rem;
+  }
+  .image-wrapper img:nth-child(4) {
     width: 120px; 
   }
 
@@ -310,8 +314,18 @@ p {
     .image-wrapper img {
       width: 80px;
     }
+    .image-wrapper img:nth-child(1) {
+      width: 80px;
+      height: 50px; 
+    }
+    .image-wrapper img:nth-child(2) {
+      width: 50px; 
+    }
     .image-wrapper img:nth-child(3) {
-      width: 60px; 
+      width: 50px; 
+    }
+    .image-wrapper img:nth-child(4) {
+      width: 50px; 
     }
 
     .language-section h3,
