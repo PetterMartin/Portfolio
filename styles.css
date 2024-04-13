@@ -427,7 +427,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--white);
+    background-image: url(Images/White-hexagon.jpeg);
   }
 
   .projects {
@@ -476,7 +476,9 @@ p {
   
   .science-museum:hover .overlay, 
   .game-hub:hover .overlay,
-  .chat-cinema:hover .overlay {
+  .chat-cinema:hover .overlay,
+  .auction:hover .overlay,
+  .price:hover .overlay {
     opacity: 1;
   }
 
@@ -506,9 +508,38 @@ p {
     opacity: 0;
     transition: opacity 0.3s ease;
   }
-
   .chat-cinema:hover {
     border: 3px solid #59f36b;
+  }
+
+  .auction .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    background-image: url("Images/Auction.svg");
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .auction:hover {
+    border: 3px solid #20c171;
+  }
+
+  .price .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    background-image: url("Images/Price.svg");
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .price:hover {
+    border: 3px solid #e03a58;
   }
   
   .project-card .card-top,
@@ -594,6 +625,12 @@ p {
     margin-right: 5px; 
   }
 
+  .next-logo {
+    width: 50px;
+    height: 30px;
+    margin-right: 1rem;
+  }
+
   .card-top img {
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -626,14 +663,18 @@ p {
     .project-card:nth-child(1) {
       background-image: url("Images/Purple.svg");
     }
-
     .project-card:nth-child(2) {
       background-image: url("Images/Blue.svg");
     }
-  
     .project-card:nth-child(3) {
       background-image: url("Images/Green.svg");
       background-size: cover;
+    }
+    .project-card:nth-child(4) {
+      background-image: url("Images/Green.svg");
+    }
+    .project-card:nth-child(5) {
+      background-image: url("Images/Auction.svg");
     }
   
     .project-card h1 {
